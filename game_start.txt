@@ -1,0 +1,102 @@
+
+<div id="main">
+<div class="container">
+
+
+<!-- Center -->
+  <div class="row">
+
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+      <div class="well">
+
+      <div  id="question_number"><h3>第1問</h3></div> <div id="clock"></div>
+      <div class="text-center thumbnail"><img src="./img/q1/q1.gif " id="click_q"></div>
+
+
+
+      <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">A<a class="thumbnail btn  btn-lg imgon" id="btn_a" name="A"><img src="./img/q1/a.gif "  id="click_a"></a></div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">B<a class="thumbnail btn  btn-lg imgon" id="btn_b" name="B"><img src="./img/q1/b.gif "  id="click_b"></a></div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">C<a class="thumbnail btn  btn-lg imgon" id="btn_c" name="C"><img src="./img/q1/c.gif "  id="click_c"></a></div>
+
+
+      </div>
+      <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">D<a class="thumbnail btn  btn-lg imgon" id="btn_d" name="D"><img src="./img/q1/d.gif "  id="click_d"></a></div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">E<a class="thumbnail btn  btn-lg imgon" id="btn_e"  name="E"><img src="./img/q1/e.gif "   id="click_e"></a></div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">F<a class="thumbnail btn  btn-lg imgon" id="btn_f"  name="F"><img src="./img/q1/f.gif "   id="click_f"></a></div>
+      </div>
+
+    </div>
+    </div>
+
+
+
+        <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+         <div class="well well-lg"><h3>Questions</h3>
+         <table class="question_table">
+         <tbody>
+<tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_1" name="1" >  1</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_2" name="2" >  2</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_3" name="3" >  3</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_4" name="4" >  4</a></td>
+            </tr>
+            <tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_5" name="5">   5</a></td>
+           <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_6" name="6" >   6</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_7" name="7" >  7</a></td>
+           <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_8" name="8" >   8</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_9" name="9" > 9</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_10" name="10" >10</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_11" name="11" >11</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_12" name="12" >12</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_13" name="13" >13</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_14" name="14" >14</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_15" name="15" >15</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_16" name="16" >16</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_17" name="17" >17</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_18" name="18" >18</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_19" name="19" >19</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_20" name="20" >20</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_21" name="21" >21</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_22" name="22" >22</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_23" name="23" >23</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_24" name="24" >24</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_25" name="25" >25</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_26" name="26" >26</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_27" name="27" >27</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_28" name="28" >28</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_29" name="29" >29</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_30" name="30" >30</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_31" name="31" >31</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_32" name="32" >32</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_33" name="33" >33</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_34" name="34" >34</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_35" name="35" >35</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_36" name="36" >36</a></td>
+</tr><tr>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_37" name="37" >37</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_38" name="38" >38</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_39" name="39" >39</a></td>
+            <td class="question_sell"><a class="btn btn-default2" role="button" id="btn_40" name="40" >40</a></td></tr>
+            </tbody></table>
+           <p><a class="btn btn-lg btn-success" id="send_score" name="send" >SEND</a></p>
+
+
+         </div>
+       </div>
+     </div>
+
+
+</div>
+  </div>
+</div>

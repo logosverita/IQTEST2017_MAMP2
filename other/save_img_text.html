@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>[T]IQ-TEST2017</title>
+
+<!-- Bootstrap -->
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/iq2017.css" rel="stylesheet">
+<link rel="shortcut icon" href="./img/flogo_256.ico">
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./index.html">IQ TEST 2017</a>
+    </div>
+
+    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-2" aria-expanded="false" style="height: 1px;">
+    <ul class="nav navbar-nav navbar-right">
+  <!-- Coming Soon <li><a href="#">Ranking</a></li> -->
+  <li><a href="./SpecialThanks.html">Special Thanks</a></li>
+  <li><a href="./contact.html">Contuct</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div  id="main">
+<div class="container-fluid">
+
+
+  <div class="col-md-2 col-lg-2 hidden-xs hidden-sm"><!-- <h2>RANKING</h2>--></div>
+
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><!-- Center -->
+    <div class="well">
+
+      <h1 class="title">IQ TEST 2017</h1>
+      <p>Save IMG test</p>
+      <canvas   id="target" width="528" height="408"></canvas>
+
+
+      <img id="output" src="">
+      <script>
+      // 文字を合成すると背景の文字が潰れる
+      // から　全ての文字は合成してしまおう...
+      onload = function() {
+       draw();
+      };
+  function draw() {
+    var canvas = document.getElementById('target');
+    if( !canvas || !canvas.getContext ) return false;
+    var ctx = canvas.getContext('2d');
+
+    var img = new Image();
+    var img2 = new Image();
+
+    img.src = "./img/canva_bg.png";
+    img2.src = "./img/flogo_64.png";
+    img.onload = function() {
+        var textwidth = 0;
+        var text_1 = "IQ TEST 2017 com";
+        var text_2 = "Certificate of IQ Score";
+        var text_3 = "Your IQ Sccore is ...";
+        var text_4 =  "145";
+        var text_5 = "Jhon Dow";
+        var c_width = 528;
+        var c_hight = 408;
+
+        ctx.drawImage(img, 0, 0, c_width, c_hight);   //bg
+
+        ctx.font="11px Source Sans Pro";
+        textwidth = ctx.measureText(text_1).width;
+        ctx.fillText(text_1, (canvas.width - textwidth)/2, 24);
+
+        ctx.font="32px Source Sans Pro";
+        textwidth = ctx.measureText(text_2).width;
+        ctx.fillText(text_2, (canvas.width - textwidth)/2-8, 58);
+
+        ctx.font="13px Source Sans Pro";
+        textwidth = ctx.measureText(text_3).width;
+        ctx.fillText(text_3, (canvas.width - textwidth)/2, 100);
+
+        ctx.font= "50px  PT serif";
+        textwidth = ctx.measureText(text_4).width;
+        ctx.fillText(text_4, (canvas.width - textwidth)/2, 166);
+
+        ctx.font="50px  PT serif";
+        textwidth = ctx.measureText(text_5).width;
+        ctx.fillText(text_5, (canvas.width - textwidth)/2, (c_hight)/2+36);
+
+        ctx.font="13px Source Sans Pro";
+        ctx.fillText("NATURAL VIRTUE RISE UNION",55, 371);
+
+        ctx.font="11px Source Sans Pro";
+        ctx.fillText("produced by",115, 392);
+
+       // var imgwidth = ctx.measureText(img2).witdh;
+   //     consolo.log(imgwidth);
+    //    ctx.drawImage(img2, (canvas.width - imgwidth)/2, 280);
+          ctx.drawImage(img2, (canvas.width - 64)/2+2.4, 330);
+
+
+        ctx.font="13px Source Sans Pro";
+        ctx.fillText("inspirationlife.jp" ,320, 370);
+
+        ctx.font="11px Source Sans Pro";
+        ctx.fillText("Created  by",340, 392);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+      </script>
+
+
+    </div>
+</div><!-- Center -->
+
+<div class="col-xs-12 col-lsm12 visible-xs-block visible-sm-block"><h2>RANKING</h2></div>
+
+
+
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"></div>
+
+
+
+
+      </div><!-- end conteiner -->
+</div><!-- end main -->
+
+
+<div  class="footer">
+  <div class="col-xs-6  col-sm-2 col-md-2 col-lg-2"></div>
+  <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5"><p class="center f_">Copyright © IQ TEST 2017. All rights reserved.</p></div>
+  <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"><div class="text-right f_"><span id="f_text"><a href="./tokutei.html" rel="me nofollow" target="_blank">特定商取引法に基づく表示</a></span><span id="f_text"><a href="./privacypolicy.html" rel="me nofollow" target="_blank">プライバシーポリシー</a></span></div>
+  </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/iq2017.js"></script>
+<script src="../tools/tool.js"></script>
+<script src="js/parsley.js"></script>
+<script src="js/extra/validator/words.js"></script>
+
+
+</body>
+</html>

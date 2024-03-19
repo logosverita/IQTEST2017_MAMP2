@@ -1,0 +1,45 @@
+
+<div  id="main"><!-- main -->
+<div class="container"><!-- container-->
+<div class="row"><!-- row -->
+
+<div class="col-lg-2"></div>
+
+<div class="col-lg-6"><!-- col6-->
+<div id="col-center"><!-- colcenter -->
+  <h3 id="EndTEST">完走おめでとうございます!!</h3><h4>メールアドレスを入力してテストを終了してください！</h4>
+<form id="demo-form" class="form-horizontal" data-parsley-validate>
+<div class="input-group input-group-lg"><!-- input-g -->
+<span class="input-group-addon" id="sizing-addon1">Name</span>
+<input type="text" class="form-control" placeholder="名前を入力してください" aria-describedby="sizing-addon1" name="input_fullname"  data-parsley-trigger="change" required="" data-parsley-length="[2, 16]" id="form_fullname">
+</div><!-- input-g -->
+<div class="input-group input-group-lg"><!-- input-g -->
+<span class="input-group-addon" id="sizing-addon1">E-mail</span>
+<input type="email" class="form-control" placeholder="メールアドレスを入力してください" aria-describedby="sizing-addon1" name="input_email" data-parsley-trigger="change" required=""  id="form_email">
+</div><!-- input-g -->
+<p class="center"><button class="btn btn-lg btn-success" type="submit" id="result_view">テストの結果をこのメールアドレスに送信する</button></p>
+</form>
+  <p class="col-mail">＊メールアドレス登録のお礼として、<u>『IQテスト2017解答と解説PDF』をプレゼント</u>しています。<br><br>＊特典が不要の場合は下記のメールアドレスをご使用ください。<br>テスト結果が画面に表示されます。『info@inspirationlife.jp』<br><br>＊みなさんの連絡先に関する情報は保護されており、貸与および販売されることは決してありません。迷惑メールが届くことはありませんので、ご安心ください。</p>
+</div><!-- colcenter -->
+</div><!-- col6-->
+
+
+
+<div class="col-lg-4" id="col-right"><!-- col4 -->
+<div class="jumbotron"> <!-- jumb -->
+<h3>メールアドレスを登録すると受け取れる３つの特典</h3>
+<h4><img src=./img/check_g32.png> IQスコアの成績証明証（1,000¥相当）</h4>
+<p>あなたの名前とスコアが入力された成績証明証をあなたのメールアドレスに送信します</p>
+<h4><img src=./img/check_g32.png> 正誤表（500¥相当）</h4>
+<p>今回のテストであなたが間違えた問題がわかる。全40問を◯Xで表示した一覧をメールで送信します。</p>
+<h4><img src=./img/check_g32.png> このテストの解答と解説PDF（500¥相当）</h4>
+<p>全40問を解説したPDFファイルを受け取れます。PDFには答えと配点も記載してあります。</p>
+<!-- <h4><img src=./img/check_g32.png> メール講座（5,000¥相当）</h4>
+<p>あなたのIQを飛躍的に高める思考講座を無料で受講できます。</p> -->
+</div><!-- jumb -->
+</div><!-- col4 -->
+
+</div><!-- row -->
+
+</div><!-- container-->
+</div><!-- main -->

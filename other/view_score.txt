@@ -1,0 +1,22 @@
+
+<div  id="main"><!-- main -->
+<div class="container"><!-- container-->
+
+
+  <div class="row"><!-- row -->
+    <div class="col-lg-3">a</div>
+    <div class="col-lg-6">
+      <div class="jumbotron">
+        <h3>あなたのIQスコアは...</h3>
+        <div id ="your_iq_score">145</div>
+        <a class="btn btn-fb btn-lg" role="button" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Finspirationlife.jp%2Fiq2016jp%2F" target="_blank"><img src="http://inspirationlife.jp/iq2016jp/img/fb.png" width="32px"></a>
+        <a class="btn btn-tweet btn-lg" role="button" href="http://twitter.com/share?text=%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AEIQ%E3%81%AFΟ%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%81&url=http%3A%2F%2Finspirationlife.jp%2Fiq2016jp%2F&hashtags=iq2016jp" target="_blank">Twitter でシェアする</a>
+        <p>あなたのメールアドレスに4つの特典を送信しました。もしも届いていない場合は、迷惑メールに入っていないか確認してください。</p>
+
+      </div>
+    </div>
+    <div class="col-lg-3">      </div>
+  </div><!-- row -->
+
+</div><!-- container-->
+</div><!-- main -->
